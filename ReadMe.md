@@ -17,7 +17,6 @@ This project aims to provide an algorithm to mix different types of still wines[
 ## Documents
 
 [Functionnal specifications](./Functional_Specifications.md)  
-[Issue Template](./IssueTemplate.md)  
 [Test plan](./TestPlan.md)
 
 ## Team members
