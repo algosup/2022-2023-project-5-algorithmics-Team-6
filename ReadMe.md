@@ -16,15 +16,15 @@ This project aims to provide an algorithm to mix different types of still wines[
 
 ## Documents
 
-[Functionnal specifications](./Functional_Specifications.md)
-[Issue Template](./IssueTemplate.md)
+[Functionnal specifications](./Functional_Specifications.md)  
+[Issue Template](./IssueTemplate.md)  
 [Test plan](./TestPlan.md)
 
 ## Team members
 
-[David CUAHONTE CUEVAS](https://github.com/DavidCC812)
-[Christopher DIGGINS](https://github.com/cdiggins)
-[Jason GROSSO](https://github.com/JasonGROSSO)
+[David CUAHONTE CUEVAS](https://github.com/DavidCC812)  
+[Christopher DIGGINS](https://github.com/cdiggins)  
+[Jason GROSSO](https://github.com/JasonGROSSO)  
 [Aurélien FERNANDEZ](https://github.com/aurelienfernandez)
 
 ## Footnotes
