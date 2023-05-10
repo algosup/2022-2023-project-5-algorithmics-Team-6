@@ -91,12 +91,12 @@ Store the wines in a database or data structure that can be easily manipulated.
 Formula Calculation
 
 1.2%wine1+2.7%wine2+etc is what we have for now.
-Convert the percentage of the input formula into decimal to determine proportions; then use the proportions to creat a vecto of wine blend in K dimensional space.
+Convert the percentages of the input formula into decimal to determine proportions; then use the proportions to creat a vector of wine blend in a K dimensional space.
 
 Tank Allocation
 
 Determine the minimum number of tanks needed to hold the wine blends.
-Allocate the wines to the tanks taking into account the capacity of each tanks and the number of steps needed to produce the final produce, while making sure that all the tanks are either full or empty.
+Allocate the wines to the tanks taking into account the capacity of each tanks and the number of steps needed to produce the final product, while making sure that all the tanks are either full or empty.
 
 Blending
 
@@ -105,8 +105,7 @@ Monitor the blending process to verify the quality of the wine with sensors.
 
 Testing and Adjusting
 
-Use sensory analysis, chemical analysis, and other quality control measures to evaluate the final product remotely.
-Using multiples quality control such as sensory analysis or chemical analysis; measures test and evaluates the final product. Adjuste the formula if necessary.
+Using multiples quality control measures such as sensory analysis or chemical analysis; test and evaluates the final product. Adjuste the formula if necessary.
 
 Optimization
 
