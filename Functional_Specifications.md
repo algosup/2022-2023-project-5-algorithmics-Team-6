@@ -81,6 +81,39 @@ The code must be able to:
 
     - We might have trouble balancing simplicity, speed and precision;
 
+### 4.3 Logic
+
+    Data Input and Storage
+
+Import the list of 250 wines of the year and 150 reserve wines into the software.
+Store the wines in a database or data structure that can be easily manipulated.
+
+Formula Calculation
+
+1.2%wine1+2.7%wine2+etc is what we have for now.
+Convert the percentage of the input formula into decimal to determine proportions; then use the proportions to creat a vecto of wine blend in K dimensional space.
+
+Tank Allocation
+
+Determine the minimum number of tanks needed to hold the wine blends.
+Allocate the wines to the tanks taking into account the capacity of each tanks and the number of steps needed to produce the final produce, while making sure that all the tanks are either full or empty.
+
+Blending
+
+Connect the tanks using the system of pumps and pipes to create the desired blend, following the proportions calculated in Tank Allocation.
+Monitor the blending process to verify the quality of the wine with sensors.
+
+Testing and Adjusting
+
+Test the final product to ensure that it is as close to the input formula as possible.
+Use sensory analysis, chemical analysis, and other quality control measures to evaluate the final product remotely.
+Adjust the formula if necessary and repeat the process until the desired result is achieved.
+Using multiples quality control such as sensory analysis or chemical analysis; measures test and evaluates the final product. Adjuste the formula if necessary.
+
+Optimization
+
+Optimize the algorithm to minimize the number of steps needed to produce the final product, taking into account the limitations of remote testing and the need for precision and consistency(dynamic programming or genitic algorythms could be interesting lead).
+
 ## 5. Non-Functional Requirement
 
 ### 5.1 Security
