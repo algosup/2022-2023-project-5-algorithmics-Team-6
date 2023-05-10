@@ -105,9 +105,7 @@ Monitor the blending process to verify the quality of the wine with sensors.
 
 Testing and Adjusting
 
-Test the final product to ensure that it is as close to the input formula as possible.
 Use sensory analysis, chemical analysis, and other quality control measures to evaluate the final product remotely.
-Adjust the formula if necessary and repeat the process until the desired result is achieved.
 Using multiples quality control such as sensory analysis or chemical analysis; measures test and evaluates the final product. Adjuste the formula if necessary.
 
 Optimization
