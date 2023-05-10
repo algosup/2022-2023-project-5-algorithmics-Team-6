@@ -7,7 +7,7 @@ This document is intended  to be read by all responsible for the management of t
 
 ### 1.1 Background
 
-For this project we are working with Krug Champagne and we are tasked with building the software for their new winery, we will focus on the forth part of the “méthode champenoise”: the Blending.
+For this project we are working with Krug Champagne a House of champagne founded in 1843. We are tasked with building the software for their new winery, we will focus on the forth part of the “méthode champenoise”: the Blending.
 Our goal is to produce the closest result to the formula with the minimum number of steps.
 
 ### 1.2 Requirement
@@ -45,15 +45,15 @@ He will need access to the code of the algorythm in order to update or verify th
 
     - UC1 (Creating a Blend)
         Fred open Powershell
-        He enter a command line containing two input file and one output file
-        The algorythm return the output file
+        Expected input --> He enter a command line containing two input file and one output file
+        Expected output --> The algorythm return the output file
         He read the output file
         Case closed
 
     - UC2 (Testing the algorythm)
         Jerry open Powershell
-        He enter a command line containing two input file and one output file
-        The algorythm return the output file
+        Expected input --> He enter a command line containing two input file and one output file
+        Expected output --> The algorythm return the output file
         He verify the precision of the algorythm by reading the output file
         Case Closed
     
