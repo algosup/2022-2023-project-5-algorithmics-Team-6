@@ -2,8 +2,8 @@
 
 ## 1. Introduction
 
-This purpose of this document is to present the different stakeholders with the needs and requirement for the implementation of an algorithm destined to blend differents variety of grapes to create a consistent flavor profile.
-This document is intended  to be read by all responsible for the management of the project development initiative including business users, user representatives and sponsors, and other interested parties.
+This purpose of this document is to present the different stakeholders with the needs and requirements for the implementation of an algorithm destined to blend differents variety of grapes to create a consistent flavor profile.
+This document is intended  to be read by all responsibles for the management of the project development initiative including business users, user representatives and sponsors, and other interested parties.
 
 ### 1.1 Background
 
@@ -18,7 +18,7 @@ Our goal is to produce the closest result to the formula with the minimum number
     - The code is easy to maintain and test;
     - Few steps need to be carried out to get the result;
     - The process needs to be fast;
-    - The product can handle different coplexity level of formulas;
+    - The product can handle different complexity level of formulas;
 
 There are no specific language for this project.
 
@@ -28,7 +28,7 @@ There are no specific language for this project.
 
 Fred is part of the team of Julie CAVIL and is responsible of the blending part of the “méthode champenoise”. He is 34 years old, married recently. He likes doing sports and particularly running.
 
-Fred lives in the center of Reims and goes to work with using public transport or a byke.
+Fred lives in the center of Reims and goes to work with using public transport or a bike.
 
 He will need access to Powershell in order to provide input and output files to the algorythm and he need to access the files for the steps.
 
@@ -46,21 +46,21 @@ He will need access to the code of the algorythm in order to update or verify th
     - UC1 (Creating a Blend)
         Fred open Powershell
         Expected input --> He enter a command line containing two input file and one output file
-        Expected output --> The algorythm return the output file
+        Expected output --> The algorithm return the output file
         He read the output file
         Case closed
 
-    - UC2 (Testing the algorythm)
+    - UC2 (Testing the algorithm)
         Jerry open Powershell
         Expected input --> He enter a command line containing two input file and one output file
-        Expected output --> The algorythm return the output file
-        He verify the precision of the algorythm by reading the output file
+        Expected output --> The algorithm return the output file
+        He verify the precision of the algorithm by reading the output file
         Case Closed
     
     - UC3 (Maintenance)
-        Jerry open the files of the algorythm
+        Jerry open the files of the algorithm
         He does his maintenance
-        He does a Test to verify the algorythm function
+        He does a Test to verify the algorithm function
         Case Closed
 
 ## 4. Functional Requirement
@@ -69,7 +69,7 @@ The code must be able to:
 
     - allow user to input values representing the percentages of a certain wine;
     - return a result to the user detailling the steps carried out and the final blend;
-    - identify tanks via their size, wether or not they are empty and wich wine do they contain (volumes is usually expressed in hectoliters);
+    - identify tanks via their size, weather or not they are empty and witch wine do they contain (volumes is usually expressed in hectoliters);
     - stop you from leaving a tank half empty;
 
 ### 4.1 Assumption
@@ -91,7 +91,7 @@ Store the wines in a database or data structure that can be easily manipulated.
 Formula Calculation
 
 1.2%wine1+2.7%wine2+etc is what we have for now.
-Convert the percentages of the input formula into decimal to determine proportions; then use the proportions to creat a vector of wine blend in a K dimensional space.
+Convert the percentages of the input formula into decimal to determine proportions; then use the proportions to create a vector of wine blend in a K dimensional space.
 
 Tank Allocation
 
@@ -115,7 +115,7 @@ Optimize the algorithm to minimize the number of steps needed to produce the fin
 
 ### 5.1 Security
 
-Krug being an important group, security is de facto extremly important for them. We are assuming that they already have some network security policy and so adding another security layer would be excessive.
+Krug being an important group, security is, de facto extremely important for them. We are assuming that they already have some network security policy and so adding another security layer would be excessive.
 
 ### 5.2 Availability
 
