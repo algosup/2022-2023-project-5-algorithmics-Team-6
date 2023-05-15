@@ -2,18 +2,19 @@
 
 ## 1. Introduction
 
-This purpose of this document is to present the different stakeholders with the needs and requirements for the implementation of an algorithm destined to blend differents variety of grapes to create a consistent flavor profile.
-This document is intended  to be read by all responsibles for the management of the project development initiative including business users, user representatives and sponsors, and other interested parties.
+This purpose of this document is to present the different stakeholders with the needs and requirements for the implementation of an algorithm destined to blend different variety of wines to create a consistent flavor profile.
+This document is intended  to be read by all parties responsible for the management of the project development initiative including but not limited to business users, user representatives and sponsors, and other interested parties.
 
 ### 1.1 Background
 
-For this project we are working with Krug Champagne a House of champagne founded in 1843. We are tasked with building the software for their new winery, we will focus on the forth part of the “méthode champenoise”: the Blending.
+For this project we are working with Krug Champagne a House of champagne founded in 1843. We are tasked with building the software for their new winery, we will focus on the fourth part of the “méthode champenoise”: the Blending.
 Our goal is to produce the closest result to the formula with the minimum number of steps.
 
 ### 1.2 Requirement
 
     - No crash;
     - No half empty/half full tanks;
+    - The product must be working on multiple OS;
     - The product must be as precise as possible;
     - The code is easy to maintain and test;
     - Few steps need to be carried out to get the result;
@@ -28,9 +29,9 @@ There are no specific language for this project.
 
 Fred is part of the team of Julie CAVIL and is responsible of the blending part of the “méthode champenoise”. He is 34 years old, married recently. He likes doing sports and particularly running.
 
-Fred lives in the center of Reims and goes to work with using public transport or a bike.
+Fred lives in the center of Reims and goes to work with using public transport or his bike.
 
-He will need access to Powershell in order to provide input and output files to the algorythm and he need to access the files for the steps.
+He will need access to Powershell in order to provide input and output files to the algorythm and he need to access the output files for the steps.
 
 ### 2.2 Jerry
 
@@ -69,12 +70,12 @@ The code must be able to:
 
     - allow user to input values representing the percentages of a certain wine;
     - return a result to the user detailling the steps carried out and the final blend;
-    - identify tanks via their size, weather or not they are empty and witch wine do they contain (volumes is usually expressed in hectoliters);
+    - identify tanks via their size, whether or not they are empty and which wine do they contain (volumes is usually expressed in hectoliters);
     - stop you from leaving a tank half empty;
 
 ### 4.1 Assumption
 
-    - The size of the tanks will not be a problem;
+    - The size of the tanks will not be a problem, since we are working  with percentages;
     - The units in the formulas are standardized;
 
 ### 4.2 Risk
@@ -85,13 +86,13 @@ The code must be able to:
 
     Data Input and Storage
 
-Import the list of 250 wines of the year and 150 reserve wines into the software.
+Import the list of 250 wines of the year,the 150 reserve wines into the software .
 Store the wines in a database or data structure that can be easily manipulated.
 
 Formula Calculation
 
-1.2%wine1+2.7%wine2+etc is what we have for now.
-Convert the percentages of the input formula into decimal to determine proportions; then use the proportions to create a vector of wine blend in a K dimensional space.
+1.2% of wine 1 +2.7% of wine 2 + etc is what we have for now.
+Convert the percentages of the input formula into decimal to determine proportions; then use the proportions to create a vector of wine blend.
 
 Tank Allocation
 
@@ -100,16 +101,15 @@ Allocate the wines to the tanks taking into account the capacity of each tanks a
 
 Blending
 
-Connect the tanks using the system of pumps and pipes to create the desired blend, following the proportions calculated in Tank Allocation.
-Monitor the blending process to verify the quality of the wine with sensors.
+Using the proportions determined in Formula Calculation start the blending process and monitor it using sensors to verify the quality of the wine.
 
 Testing and Adjusting
 
-Using multiples quality control measures such as sensory analysis or chemical analysis; test and evaluates the final product. Adjuste the formula if necessary.
+Using multiple quality control measures, test and evaluates the final product. Adjust the formula if necessary.
 
 Optimization
 
-Optimize the algorithm to minimize the number of steps needed to produce the final product, taking into account the limitations of remote testing and the need for precision and consistency(dynamic programming or genitic algorythms could be interesting lead).
+Optimize the algorithm to minimize the number of steps needed to produce the final product, taking into account the need for precision and consistency(dynamic programming or genitic algorythms could be interesting lead).
 
 ## 5. Non-Functional Requirement
 
@@ -119,8 +119,8 @@ Krug being an important group, security is, de facto extremely important for the
 
 ### 5.2 Availability
 
-The algorythm is to be present on a computer with a password, known by a few employes to complement the security policy.
+The algorythm is to be present on a computer with a password, known by a few employees to complement the security policy.
 
 ### 5.3 Scalability
 
-The algorythm is expected to handle formulas with a finite amount of wine (i-e 4 types of wines/grapes).
+The algorythm is expected to handle formulas with a finite amount of wines (i-e 4 types of wines/grapes).
