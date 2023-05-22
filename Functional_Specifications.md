@@ -1,29 +1,65 @@
 # Functional Requirement Document
 
+---
+<details>
+
+<summary>Table of Contents</summary>
+
+- [Functional Requirement Document](#functional-requirement-document)
+  - [1. Introduction](#1-introduction)
+    - [1.1 Background](#11-background)
+    - [1.2 Requirement](#12-requirement)
+  - [2. Personae](#2-personae)
+    - [2.1 Fred](#21-fred)
+    - [2.2 Jerry](#22-jerry)
+  - [3. Use Cases](#3-use-cases)
+  - [4. Functional Requirement](#4-functional-requirement)
+    - [4.1 Assuption](#41-assumption)
+    - [4.2 Risk](#42-risk)
+    - [4.2 Logic](#43-logic)
+  - [5. Non Functional Requirement](#5-non-functional-requirement)
+    - [5.1 Security](#51-security)
+    - [5.2 Availability](#52-availability)
+    - [5.3 Scalability](#53-scalability)
+
+</details>
+
+---
+
 ## 1. Introduction
 
-This purpose of this document is to present the different stakeholders with the needs and requirements for the implementation of an algorithm destined to blend different variety of wines to create a consistent flavor profile.
-This document is intended  to be read by all parties responsible for the management of the project development initiative including but not limited to business users, user representatives and sponsors, and other interested parties.
+This purpose of this document is to present the different stakeholders with the needs and requirements for the implementation of an algorithm[^algorythm] destined to blend different variety of wines to create a consistent flavor profile.
+This document is intended to be read by all parties responsible for the management of the project development initiative including but not limited to business users, user representatives and sponsors, and other interested parties.
+
+---
 
 ### 1.1 Background
 
-For this project we are working with Krug Champagne a House of champagne founded in 1843. We are tasked with building the software for their new winery, we will focus on the fourth part of the “méthode champenoise”: the Blending.
+For this project we are working with Krug Champagne a House of champagne founded in 1843. We are tasked with building the software for their new winery, we will focus on the fourth part of the “méthode champenoise”: the Blending[^blending].
 Our goal is to produce the closest result to the formula with the minimum number of steps.
+
+---
 
 ### 1.2 Requirement
 
-    - No crash;
-    - No half empty/half full tanks;
-    - The product must be working on multiple OS;
-    - The product must be as precise as possible;
-    - The code is easy to maintain and test;
-    - Few steps need to be carried out to get the result;
-    - The process needs to be fast;
-    - The product can handle different complexity level of formulas;
+- No crash [^crash];
+- No half empty/half full tanks;
+- The product must be working on multiple OS[^os];
+- The product must be as precise as possible;
+- The code is easy to maintain and test;
+- Few steps need to be carried out to get the result;
+- The process needs to be fast;
+- The product can handle different complexity level of formulas;
 
 There are no specific language for this project.
 
+---
+
 ## 2. Personae
+
+The Personae represent the potential users of a product/service, their number scale with the size of the user base. In our case since we are targeting for our user base[^base] something very specific: the fourth part of the “méthode champenoise” we have few personae.
+
+---
 
 ### 2.1 Fred
 
@@ -31,7 +67,9 @@ Fred is part of the team of Julie CAVIL and is responsible of the blending part 
 
 Fred lives in the center of Reims and goes to work with using public transport or his bike.
 
-He will need access to Powershell in order to provide input and output files to the algorythm and he need to access the output files for the steps.
+He will need access to Powershell[^powershell] in order to provide input and output files to the algorythm and he need to access the output files for the steps.
+
+---
 
 ### 2.2 Jerry
 
@@ -41,6 +79,8 @@ and listening to music.
 Jerry lives in Muizon and takes his car to go to work.
 
 He will need access to the code of the algorythm in order to update or verify the code and ensure it works.
+
+---
 
 ## 3. Use cases
 
@@ -64,6 +104,8 @@ He will need access to the code of the algorythm in order to update or verify th
         He does a Test to verify the algorithm function
         Case Closed
 
+---
+
 ## 4. Functional Requirement
 
 The code must be able to:
@@ -73,21 +115,27 @@ The code must be able to:
     - identify tanks via their size, whether or not they are empty and which wine do they contain (volumes is usually expressed in hectoliters);
     - stop you from leaving a tank half empty;
 
+---
+
 ### 4.1 Assumption
 
     - The size of the tanks will not be a problem, since we are working  with percentages;
     - The units in the formulas are standardized;
 
+---
+
 ### 4.2 Risk
 
     - We might have trouble balancing simplicity, speed and precision;
+
+---
 
 ### 4.3 Logic
 
     Data Input and Storage
 
 Import the list of 250 wines of the year,the 150 reserve wines into the software .
-Store the wines in a database or data structure that can be easily manipulated.
+Store the wines in a database[^database] or data structure[^structure] that can be easily manipulated.
 
 Formula Calculation
 
@@ -109,18 +157,42 @@ Using multiple quality control measures, test and evaluates the final product. A
 
 Optimization
 
-Optimize the algorithm to minimize the number of steps needed to produce the final product, taking into account the need for precision and consistency(dynamic programming or genitic algorythms could be interesting lead).
+Optimize the algorithm to minimize the number of steps needed to produce the final product, taking into account the need for precision and consistency(dynamic programming[^programming] or genitic[^genetic] algorythms could be interesting lead).
+
+---
 
 ## 5. Non-Functional Requirement
 
 ### 5.1 Security
 
-Krug being an important group, security is, de facto extremely important for them. We are assuming that they already have some network security policy and so adding another security layer would be excessive.
+Krug being an important group, security is, de facto extremely important for them. We are assuming that they already have some network security policy[^policy] and so adding another security layer would be excessive.
+
+---
 
 ### 5.2 Availability
 
 The algorythm is to be present on a computer with a password, known by a few employees to complement the security policy.
 
+---
+
 ### 5.3 Scalability
 
 The algorythm is expected to handle formulas with a finite amount of wines (i-e 4 types of wines/grapes).
+
+---
+
+## Glossary
+
+[^algorythm]: Refers to a sequence of actions performed on data;
+[^blending]: The still wines from different vineyards and grape varieties are blended together to create a consistent flavor profile;
+[^crash]: A carsh is a abnormal interuption of the software, due to a failure, an incident or a bug;
+[^os]: OS or Operating System is a set of programs that directs the use of a computer's ressources;
+[^base]:  A user base refers to the number of people who use a particular product or service, especially one available on the internet
+[^powershell]: PowerShell is a task automation and configuration management program from Microsoft, consisting of a command-line shell and the associated scripting language
+[^database]: Database refers to a structured set of data held in a computer, especially one that is accessible in various ways;
+[^structure]: Data structure are a specialized format for organizing, processing, retrieving and storing data;
+[^programming]: Dynamic programming is a computer programming technique where an algorithmic problem is broken down into sub-problems;
+[^genetic]: Genetic programing is a method for solving optimization problems that is based on natural selection;
+[^policy]: A network security policy delineates guidelines for computer network access, determines policy enforcement, and lays out the architecture of the organization's network security environment;
+
+---
