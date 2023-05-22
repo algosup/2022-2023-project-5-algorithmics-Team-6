@@ -67,7 +67,16 @@ Software
 The program will have a fairly small architecture, it has to be well organised to optimise the execution time and to allow future modifications by future development teams.
 
 ```txt
-- waiting for further information
+├──WineMixer
+  ├──Inputs
+    ├──TankSize.txt
+    └──Recipe.txt
+  ├──Output
+    ├──Result.txt
+    └──Steps.txt
+  ├──Config.Json (Optional)
+  ├──Usage.txt
+  └──WineMixer.exe
 ```
 
 ## testing approach
