@@ -1,6 +1,6 @@
-# Issue number X
+# Issue n°X
 
-## Program's version
+## Program related to the issue
 
 Program-name.X.X.X
 
