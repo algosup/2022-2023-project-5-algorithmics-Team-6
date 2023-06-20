@@ -20,7 +20,9 @@ The following steps require you to install the last version of the wine mixer pr
 
 To access the program folder open the console and type:
 
-```cd Downloads/WineMixer```
+```
+cd Downloads/WineMixer
+```
 
 you can modify the inputs as you want inside the input folder, the inputs are:
 
@@ -29,15 +31,21 @@ you can modify the inputs as you want inside the input folder, the inputs are:
 
 To modify it type in the console:
 
-```notepad input/recipe.txt```
+```
+notepad input/recipe.txt
+```
 
 or
 
-```notepad input/tanks.txt```
+```
+notepad input/tanks.txt
+```
 
 Then to execute the program type:
 
-```WineMixer.exe```
+```
+WineMixer.exe
+```
 
 Finally, you can see the results on the terminal and inside the output folder created in the program's folder.
 
@@ -45,7 +53,9 @@ Finally, you can see the results on the terminal and inside the output folder cr
 
 To access the program folder open the console and type:
 
-```cd Downloads/WineMixer```
+```
+cd Downloads/WineMixer
+```
 
 you can modify the inputs as you want inside the input folder, the inputs are:
 
@@ -54,15 +64,21 @@ you can modify the inputs as you want inside the input folder, the inputs are:
 
 To modify it type in the console:
 
-```nano input/recipe.txt```
+```
+nano input/recipe.txt
+```
 
 or
 
-```nano input/tanks.txt```
+```
+nano input/tanks.txt
+```
 
 Then to execute the program type and open the resulting outputs:
 
-```sudo dotnet WineMixer.dll input/tanks.txt input/recipe.txt && open /usr/local/share/dotnet/output```
+```
+sudo dotnet WineMixer.dll input/tanks.txt input/recipe.txt && open /usr/local/share/dotnet/output
+```
 
 ## Documents
 
