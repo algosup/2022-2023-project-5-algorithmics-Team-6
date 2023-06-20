@@ -30,8 +30,10 @@ you can modify the inputs as you want inside the input folder, the inputs are:
 To modify it type in the console:
 
 ```notepad input/recipe.txt```
+
 or
-```notepad input/tanks.txt````
+
+```notepad input/tanks.txt```
 
 Then to execute the program type:
 
@@ -53,8 +55,10 @@ you can modify the inputs as you want inside the input folder, the inputs are:
 To modify it type in the console:
 
 ```nano input/recipe.txt```
+
 or
-```nano input/tanks.txt````
+
+```nano input/tanks.txt```
 
 Then to execute the program type and open the resulting outputs:
 
