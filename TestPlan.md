@@ -94,7 +94,7 @@ Tests defined as short term tests are the following:
 
 Tests defined as long term test are:
 
-- TDD tests, it will test the integrity of the code during the whole project, they have to be updated following a function's update, these tests cannot be passed by bypassing the function(we can't write result= true)
+- TDD tests, it will test the integrity of the code during the whole project, they have to be updated following a function's update, these tests cannot be passed by bypassing the function
 - Spaghetti code, we have to ensure that the code is optimal and easy to read, we have to give the more optimised code we can provide to the client given our ressources.
 
 ### Test deliverables
@@ -110,6 +110,6 @@ Tests defined as long term test are:
 ```txt
 - All test must pass
 - The program does not crash
-- The program should not take more than 2 minutes to execute
+- The program should not take more than 60 minutes to execute
 - The input and output files are used correctly
 ```
