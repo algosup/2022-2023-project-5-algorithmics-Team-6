@@ -1,0 +1,8 @@
+{
+  "MaxInputOrOutputTanks": 4,
+  "RunInParallel": true,
+  "OutputBlendFileName": "result.txt",
+  "OutputStepsFileName": "steps.txt",
+  "OutputFolder": "output",
+  "MaxNumSteps": 10
+}
