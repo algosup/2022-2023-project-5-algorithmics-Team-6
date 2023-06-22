@@ -83,9 +83,10 @@ sudo dotnet WineMixer.dll input/tanks.txt input/recipe.txt && open /usr/local/sh
 ## Documents
 
 [Functionnal specifications](./Functional_Specifications.md)  
-[Test plan](./TestPlan.md)
-[Technical specifications](./Documents/Technical%20Leader/Technical-Specification.md)
+[Test plan](./TestPlan.md)  
+[Technical specifications](./Documents/Technical%20Leader/Technical-Specification.md)  
 [Project Reports](./Documents/Project%20Manager/Reports.md)
+
 
 ## Team members
 
